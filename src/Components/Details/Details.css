@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  height: 50vh;
+}
+.detail-banner {
+  background-image: url("../../Photo/soccer-ball-grass-with-stadium-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 200vh;
+  background-position-y: center;
+}
+.mini-info {
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.mini-info-2 {
+  color: aliceblue;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.description {
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.icons {
+  color: aliceblue;
+}
+/*? mobile version */
+@media screen and (max-width: 640px) {
+  .mini-info-2 {
+    text-align: center;
+  }
+  .mini-info {
+    margin-right: 10rem;
+  }
+}

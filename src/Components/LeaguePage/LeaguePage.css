@@ -1,0 +1,30 @@
+.header-img {
+  background-image: url("../../Photo/XianStadium.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.league-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 5em;
+}
+.banner-text {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+/*? Mobile version */
+@media screen and (max-width: 520px) {
+  .league-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+}
